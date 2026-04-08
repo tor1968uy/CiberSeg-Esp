@@ -42,7 +42,7 @@ Puedes listar las suites de cifrado soportadas por un servidor para verificar si
 ```bash
 # Escanear un servidor para ver sus algoritmos de cifrado
 nmap --script ssl-enum-ciphers -p 443 <IP_O_DOMINIO>
-
+```
 ¿Qué buscar en los resultados?
 
 Si ves suites que comienzan con TLS_RSA_WITH_..., esas dejarán de funcionar.
